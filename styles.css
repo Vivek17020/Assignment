@@ -1,0 +1,97 @@
+body {
+    background-color: orange;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+   flex-wrap: initial;
+    justify-content: space-around;
+    gap: 20px; /* Adjust the gap as needed */
+    padding: 20px; /* Add padding to the container if desired */
+}
+
+.card {
+    height: 665px;
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blue-card {
+    background-color: hsl(186, 64%, 94%);
+    border-radius: 10px;
+    margin-bottom: 80px;
+    padding:10px;
+    margin: 10px auto;
+    height: 130px;
+    width: 220px;
+}
+
+.rupee-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px 0;
+}
+
+.rupee-section span {
+    margin-top: 0.1px;
+    margin-bottom: 28px;
+    font-size: 2.2em; /* Adjust font size as needed */
+    margin-right: 5px;
+    font-weight: bolder; /* Adjust spacing between symbol and amount */
+}
+
+.blue-text {
+
+
+    color: black;
+    font-weight: bold;
+    margin: 0.2px 0;
+}
+
+.amount {
+    margin-top: 3px;
+    margin-bottom: 6px;
+    font-size: 4.0em; 
+    font-weight: bolder;/* Adjust font size as needed */
+}
+
+.fees {
+    margin-top: 9px;
+    color: blue;
+    margin-bottom: 6px;
+    
+}
+.custom-para{
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: start;
+    
+}
+
+.more {
+    margin-top: 115px;
+    color: blue;
+    margin-bottom: 6px;
+    
+}
+
+.knowmore{
+    margin-top: 145px;
+    color: blue;
+    margin-bottom: 6px;
+    
+}
+
+.adj{
+    font-size: 145%;
+}
